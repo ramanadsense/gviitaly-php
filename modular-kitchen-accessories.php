@@ -1,7 +1,7 @@
 <?php include('header-top.php'); ?>
 <title>Modular Kitchen Fittings | GVI Luxury Hardware That Makes Furniture Feel Premium.</title>
 <?php include('header.php'); ?>
-<section class="page-header">
+<section class="page-header product-header">
    <div class="bg-img" data-background="assets/img/bg-img/modular-kitchen-accessories.png"></div>
    <div class="overlay"></div>
    <div class="container">
@@ -16,19 +16,37 @@
          </h4>
       </div>
    </div>
+            <div class="book-btn-main">
+               <a href="catalog-request.php" class="catalog-book-link">
+
+                  <div class="brochure-book">
+                     <img src="assets/img/product/modular-kitchen-catalog-cover.png"
+                          alt="GVI Catalog">
+                  </div>
+
+                  <span class="donloade-icon">
+                     <i class="fa-regular fa-arrow-down"></i>
+                  </span>
+
+               </a>
+            </div>
 </section>
-<section class="project-section-inner pt-80 pb-80">
+
+<section class="project-section-inner pt-80 pb-40">
    <div class="container">
-      <div class="row section-heading-wrap justify-content-center fade-top pt-0 align-items-center">
+      <div class="row section-heading-wrap  fade-top pt-0 ">
          <div class="shape"><img src="assets/img/shapes/section-heading-2.png" alt="shape"></div>
          <div class="col-lg-10 col-md-12">
-            <div class="section-heading section-heading-2 mb-0 px-0 align-items-center">
-               <p class="text-center product-page-title">
+            <div class="section-heading section-heading-2 mb-0 px-0 ">
+               <p class="t product-page-title">
                   Premium modular kitchen fittings designed for intelligent functionality, <br class="d-xl-block d-none">
                   modern aesthetics and long-lasting performance.
                </p>
             </div>
          </div>
+
+
+
       </div>
       <div class="row gy-5">
          <div class="col-lg-4 col-md-6">
@@ -95,7 +113,7 @@
       </div>
    </div>
 </section>
-<section class="brochure-section-full mt-30">
+<!-- <section class="brochure-section-full mt-30">
    <div class="container">
       <div class="brochure-form-box">
          <div class="brochure-left">
@@ -145,8 +163,8 @@
          </div>
       </div>
    </div>
-</section>
-<section class="project-section-inner pt-80 pb-80">
+</section> -->
+<section class="project-section-inner pt-0 pb-80">
    <div class="container">
       <div class="row gy-5">
          <div class="col-lg-4 col-md-6">

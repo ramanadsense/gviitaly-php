@@ -26,9 +26,8 @@
         <!-- <link rel="stylesheet" href="assets/css/animation.css"> -->
         <!-- <link rel="stylesheet" href="assets/css/twentytwenty.min.css"> -->
         <link rel="stylesheet" href="assets/css/swiper.min.css">
-        <link rel="stylesheet" href="assets/css/main.css?v=1.0.43">
-        <link rel="stylesheet" href="assets/css/responsive.css?v=1.0.35">
-
+        <link rel="stylesheet" href="assets/css/main.css?v=1.0.82">
+        <link rel="stylesheet" href="assets/css/responsive.css?v=1.0.50">
 
         <link rel="preload" href="assets/css/venobox.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <link rel="preload" href="assets/css/odometer.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -69,6 +68,10 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+        <script>
+            !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js'); fbq('init', '1499954234671611'); fbq('track', 'PageView');
+        </script>
+        <noscript> <img height="1" width="1" src="https://www.facebook.com/tr?id=1499954234671611&ev=PageView&noscript=1"/></noscript>
     </head>
     
 
@@ -131,7 +134,7 @@
                                             <ul>
                                                 <li><a href="modular-kitchen-accessories.php">Modular Kitchen Fittings</a></li>
                                                 <li><a href="modular-wardrobe-accessories.php">Modular Wardrobe Fittings</a></li>
-                                                <li><a href="architectural-furniture.php">Architectural Furniture</a></li>
+                                                <li><a href="architectural-furniture.php">Architectural Hardware</a></li>
                                                 <li><a href="drawer-locks.php">Drawer locks</a></li>
                                                 <li><a href="aluminium-profiles.php">Aluminium Profiles</a></li>
                                             </ul>
@@ -141,6 +144,9 @@
                                         </li> -->
                                         <li>
                                             <a href="blogs.php">Insights</a>
+                                        </li>
+                                        <li>
+                                           <a href="talk-to-expert.php">Talk To Expert</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -156,7 +162,8 @@
                                 </span>
                             </a> -->
                             <div class="header-btn-wrap">
-                                <a href="talk-to-expert.php" class="tl-primary-btn header-btn">Talk To Expert</a>
+                                <a href="sample-kit.php" class="tl-primary-btn header-btn"> Get Free Sample Kit</a>
+                                <!-- <a href="sample-kit.php" class="tl-primary-btn header-btn">Get Free Sample Kit</a> -->
                             </div>
                             <div class="sidebar-icon">
                                 <button class="sidebar-trigger open">
@@ -231,8 +238,9 @@
                     <h4 class="title">Contact Info</h4>
                 </div>
                 <div class="side-menu-contact">
-                    <div class="header-btn-wrap mb-4">
+                    <div class="header-btn-wrap mb-4 ">
                         <a href="talk-to-expert.php" class="tl-primary-btn header-btn">Talk To Expert</a>
+                        <!-- <a href="sample-kit.php" class="tl-primary-btn header-btn mt-3">Get Free Sample Kit</a> -->
                     </div>
                     <ul class="side-menu-list">
                         <li>

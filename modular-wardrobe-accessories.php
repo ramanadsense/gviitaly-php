@@ -1,7 +1,7 @@
 <?php include('header-top.php'); ?>
 <title>Modular Wardrobe Fittings | GVI Luxury Hardware That Makes Furniture Feel Premium.</title>
 <?php include('header.php'); ?>
-<section class="page-header">
+<section class="page-header product-header">
    <div class="bg-img" data-background="assets/img/bg-img/modular-wardrobe-accessories-header-img.webp"></div>
    <div class="overlay"></div>
    <div class="container">
@@ -16,14 +16,28 @@
          </h4>
       </div>
    </div>
+               <div class="book-btn-main">
+               <a href="catalog-request.php" class="catalog-book-link">
+
+                  <div class="brochure-book">
+                     <img src="assets/img/product/modular-wardrobe-catalog-cover.png"
+                          alt="GVI Catalog">
+                  </div>
+
+                  <span class="donloade-icon">
+                     <i class="fa-regular fa-arrow-down"></i>
+                  </span>
+
+               </a>
+            </div>
 </section>
-<section class="project-section-inner pt-80 pb-80">
+<section class="project-section-inner pt-80 pb-40">
    <div class="container">
-      <div class="row section-heading-wrap justify-content-center fade-top pt-0 align-items-center">
+      <div class="row section-heading-wrap fade-top pt-0 ">
          <div class="shape"><img src="assets/img/shapes/section-heading-2.png" alt="shape"></div>
          <div class="col-lg-10 col-md-12">
-            <div class="section-heading section-heading-2 mb-0 px-0 align-items-center">
-               <p class="text-center product-page-title">
+            <div class="section-heading section-heading-2 mb-0 px-0">
+               <p class=" product-page-title">
                 Premium wardrobe fittings crafted for smart organization, <br class="d-xl-block d-none">
                 seamless accessibility, and elegant storage solutions.
                 </p>
@@ -97,58 +111,58 @@
          </div>
       </div>
    </section>
-   <section class="brochure-section-full mt-30">
-   <div class="container">
-      <div class="brochure-form-box">
-         <div class="brochure-left">
-            <div class="brochure-cover">
-               <img src="assets/img/product/modular-wardrobe-catalog-cover.png" alt="Brochure">
-            </div>
-         </div>
-         <div class="brochure-right">
-            <div class="section-heading mb-0">
-                <p>
-                  Download the latest Modular Wardrobe Fittings catalogue to explore storage solutions,
-                  specifications, product details, functional fittings, and design inspirations.
-               </p>
-            </div>
-            <form action="download-brochure-submit.php" method="POST">
-                  <input type="hidden" name="form_type" value="Modular Wardrobe Fittings">
-               <div class="brochure-row">
-                  <div class="brochure-field">
-                     <input type="text" class="form-control" name="name" placeholder="Name" required>
-                  </div>
-                  <div class="brochure-field">
-                     <input type="tel"
-                        class="form-control number-input"
-                        name="mobile"
-                        placeholder="Mobile Number"
-                        pattern="[0-9]{10}"
-                        maxlength="10"
-                        minlength="10"
-                        title="Please enter a valid 10-digit mobile number"
-                        required>
-                  </div>
+<!-- <section class="brochure-section-full mt-30">
+      <div class="container">
+         <div class="brochure-form-box">
+            <div class="brochure-left">
+               <div class="brochure-cover">
+                  <img src="assets/img/product/modular-wardrobe-catalog-cover.png" alt="Brochure">
                </div>
-               <div class="brochure-row">
-                  <div class="brochure-field">
-                     <input type="text" class="form-control" name="company" placeholder="Company Name" required>
-                  </div>
-                  <div class="brochure-field brochure-btn-wrap">
-                     <button type="submit" class="brochure-btn tl-primary-btn">
-                     Download Brochure
-                     <span class="icon">
-                     <i class="fa-regular fa-arrow-right"></i>
-                     </span>
-                     </button>
-                  </div>
+            </div>
+            <div class="brochure-right">
+               <div class="section-heading mb-0">
+                  <p>
+                     Download the latest Modular Wardrobe Fittings catalogue to explore storage solutions,
+                     specifications, product details, functional fittings, and design inspirations.
+                  </p>
                </div>
-            </form>
+               <form action="download-brochure-submit.php" method="POST">
+                     <input type="hidden" name="form_type" value="Modular Wardrobe Fittings">
+                  <div class="brochure-row">
+                     <div class="brochure-field">
+                        <input type="text" class="form-control" name="name" placeholder="Name" required>
+                     </div>
+                     <div class="brochure-field">
+                        <input type="tel"
+                           class="form-control number-input"
+                           name="mobile"
+                           placeholder="Mobile Number"
+                           pattern="[0-9]{10}"
+                           maxlength="10"
+                           minlength="10"
+                           title="Please enter a valid 10-digit mobile number"
+                           required>
+                     </div>
+                  </div>
+                  <div class="brochure-row">
+                     <div class="brochure-field">
+                        <input type="text" class="form-control" name="company" placeholder="Company Name" required>
+                     </div>
+                     <div class="brochure-field brochure-btn-wrap">
+                        <button type="submit" class="brochure-btn tl-primary-btn">
+                        Download Brochure
+                        <span class="icon">
+                        <i class="fa-regular fa-arrow-right"></i>
+                        </span>
+                        </button>
+                     </div>
+                  </div>
+               </form>
+            </div>
          </div>
       </div>
-   </div>
-</section>
-<section class="project-section-inner pt-80 pb-80">
+</section> -->
+<section class="project-section-inner pt-0 pb-80">
    <div class="container">
       <div class="row gy-5">
          <div class="col-lg-4 col-md-6">

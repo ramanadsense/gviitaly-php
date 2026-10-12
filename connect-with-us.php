@@ -50,7 +50,7 @@
 
                         <ul>
                             <li><i class="fa-solid fa-phone"></i> +91 9821585665</li>
-                            <li><i class="fa-solid fa-envelope"></i> info@gviitaly.com</li>
+                            <li><i class="fa-solid fa-envelope"></i>info.geetavinay@gmail.com</li>
                         </ul>
 
                     </div>

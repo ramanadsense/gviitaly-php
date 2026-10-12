@@ -1,29 +1,43 @@
 <?php include('header-top.php'); ?>
-<title>Architectural Furniture | GVI Luxury Hardware That Makes Furniture Feel Premium.</title>
+<title>Architectural Hardware | GVI Luxury Hardware That Makes Furniture Feel Premium.</title>
 <?php include('header.php'); ?>
-<section class="page-header">
+<section class="page-header product-header">
    <div class="bg-img" data-background="assets/img/bg-img/architectural-furniture-header-img.webp"></div>
    <div class="overlay"></div>
    <div class="container">
       <div class="page-header-content">
-         <h1 class="title">Architectural Furniture</h1>
+         <h1 class="title">Architectural Hardware</h1>
          <h4 class="sub-title">
             <a class='home' href='index.php'>Home </a>
             <span class="icon">-</span>
             <a class='home' href='products.php'>Product Range </a>
             <span class="icon">-</span>
-            <a class='inner-page' href="architectural-furniture.php">Architectural Furniture</a>
+            <a class='inner-page' href="architectural-furniture.php">Architectural Hardware</a>
          </h4>
       </div>
    </div>
+            <div class="book-btn-main">
+               <a href="catalog-request.php" class="catalog-book-link">
+
+                  <div class="brochure-book">
+                     <img src="assets/img/product/architectural-furniture-catalog-cover.png"
+                          alt="GVI Catalog">
+                  </div>
+
+                  <span class="donloade-icon">
+                     <i class="fa-regular fa-arrow-down"></i>
+                  </span>
+
+               </a>
+            </div>
 </section>
-<section class="project-section-inner pt-80 pb-80">
+<section class="project-section-inner pt-80 pb-40">
    <div class="container">
-      <div class="row section-heading-wrap justify-content-center fade-top pt-0 align-items-center">
+      <div class="row section-heading-wrap  fade-top pt-0 ">
          <div class="shape"><img src="assets/img/shapes/section-heading-2.png" alt="shape"></div>
          <div class="col-lg-10 col-md-12">
-            <div class="section-heading section-heading-2 mb-0 px-0 align-items-center">
-               <p class="text-center product-page-title">
+            <div class="section-heading section-heading-2 mb-0 px-0 ">
+               <p class=" product-page-title">
                 Premium architectural furniture solutions designed to enhance modern interiors, <br class="d-xl-block d-none">
                 combining innovative design, superior craftsmanship, and lasting functionality.
                 </p>
@@ -97,7 +111,7 @@
       </div>
    </section>
 
-   <section class="brochure-section-full mt-30">
+<!-- <section class="brochure-section-full mt-30">
    <div class="container">
       <div class="brochure-form-box">
          <div class="brochure-left">
@@ -147,9 +161,9 @@
          </div>
       </div>
    </div>
-</section>
+</section> -->
 
-<section class="project-section-inner pt-80 pb-80">
+<section class="project-section-inner pt-0 pb-80">
    <div class="container">
       <div class="row gy-5">
          <div class="col-lg-4 col-md-6">

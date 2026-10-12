@@ -93,7 +93,8 @@
                         <img src="assets/img/logo/gvi-Italy-.png" alt="GVI Italy">
                     </a>
                     <span></span>
-                    <p>Premium modular hardware solutions trusted by furniture manufacturers, kitchen studios, and interior brands across India.</p>
+                    <p>Premium Hardware. Trusted Partnerships. Designed for Excellence.</p>
+                    <!-- <p>Premium modular hardware solutions trusted by furniture manufacturers, kitchen studios, and interior brands across India.</p> -->
                 </div>
 
                 <div class="gvi-footer-links-row">
@@ -111,8 +112,8 @@
                     <div class="gvi-footer-box">
                         <h4><i class="fa-regular fa-cube"></i> Our Products</h4>
                         <ul>
-                            <li><a href="modular-kitchen-accessories.php">Modular Kitchen Accessories <i class="fa-regular fa-chevron-right"></i></a></li>
-                            <li><a href="modular-wardrobe-accessories.php">Modular Wardrobe Accessories <i class="fa-regular fa-chevron-right"></i></a></li>
+                            <li><a href="modular-kitchen-accessories.php">Modular Kitchen Fittings  <i class="fa-regular fa-chevron-right"></i></a></li>
+                            <li><a href="modular-wardrobe-accessories.php">Modular Wardrobe Fittings <i class="fa-regular fa-chevron-right"></i></a></li>
                             <li><a href="architectural-furniture.php">Architectural Hardware <i class="fa-regular fa-chevron-right"></i></a></li>
                             <li><a href="drawer-locks.php">Drawer Locks <i class="fa-regular fa-chevron-right"></i></a></li>
                             <li><a href="aluminium-profiles.php">Aluminium Profiles <i class="fa-regular fa-chevron-right"></i></a></li>
@@ -131,7 +132,8 @@
 
                 <div class="gvi-follow">
                     <p>Follow Us</p>
-                    <a href="https://www.instagram.com/gvihardwares" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/gviitalyindia/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <!-- <a href="https://www.instagram.com/gvihardwares" target="_blank"><i class="fa-brands fa-instagram"></i></a> -->
                     <a href="https://www.facebook.com/people/GVI-Italy/61585542134407/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
                     <a href="https://www.linkedin.com/in/vinay-aggarwal-4a104b36" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
@@ -140,7 +142,7 @@
             <div class="gvi-footer-right">
                 <img class="gvi-kit-img" src="assets/img/sample-kit-new1.webp" alt="Sample Kit">
 
-                <p>From wardrobe fittings to architectural hardware, GVI Italy helps create spaces that look premium, perform flawlessly, and feel exceptional to live in.</p>
+                <!-- <p>From wardrobe fittings to architectural hardware, GVI Italy helps create spaces that look premium, perform flawlessly, and feel exceptional to live in.</p> -->
 
                 <a href="sample-kit.php" class="gvi-footer-btn">
                     <span><i class="fa-regular fa-gift"></i></span>
@@ -171,15 +173,15 @@
 
                 <p>
                     Copyright 2026
-                    <a href="https://ipopsolutions.com/" target="_blank">
-                        iPOP Solutions.
+                    <a href="https://gviitaly.in/" target="_blank">
+                        GVI Italy.
                     </a>
                     <br class="d-lg-none d-block">
                     <span>All Rights Reserved.</span>
                 </p>
             </div>
 
-            <a href="#">Privacy Policy</a>
+            <a href="privacy-policy.php">Privacy Policy</a>
 
         </div>
     </div>
@@ -213,7 +215,7 @@
 <script src="assets/js/slider.js"></script>
 <script src="assets/js/banner-process.js"></script>
 <script src="assets/js/contact.js"></script>
-<script src="assets/js/main.js?v=1.0.1"></script>
+<script src="assets/js/main.js?v=1.0.2"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/sticky-kit/1.1.3/sticky-kit.min.js"></script>
 <script>
    $(document).ready(function () {
@@ -268,6 +270,7 @@
 </script>
 <script>
 
+if (document.querySelector('.mobile-heroslider')) {
 const mobileHeroSlider = new Swiper('.mobile-heroslider', {
     loop: true,
     autoplay: {
@@ -289,6 +292,7 @@ const mobileHeroSlider = new Swiper('.mobile-heroslider', {
         }
     }
 });
+}
 
     var swiperService = new Swiper(".service-carousel", {
     slidesPerView: 3,
@@ -391,29 +395,74 @@ var swiperHistory = new Swiper(".testi-carousel-5", {
 var swiperHistory = new Swiper(".story", {
     slidesPerView: 4,
     spaceBetween: 24,
-    loop: false,
-    rewind: false,
-    watchOverflow: true,
+
+    loop: true,
+    loopAdditionalSlides: 4,
+
+    speed: 6000,
 
     autoplay: {
-        delay: 3000,
-        disableOnInteraction: false,
-        stopOnLastSlide: true
+        delay: 0,
+        disableOnInteraction: false
     },
 
     breakpoints: {
         320: {
-            slidesPerView: 1
+            slidesPerView: 1,
+            spaceBetween: 15
         },
         767: {
-            slidesPerView: 3
+            slidesPerView: 3,
+            spaceBetween: 20
         },
         1024: {
-            slidesPerView: 4
+            slidesPerView: 4,
+            spaceBetween: 24
         }
     }
 });
 
+// Stop immediately on hover
+const storySlider = document.querySelector(".story");
+
+storySlider.addEventListener("mouseenter", function () {
+    swiperHistory.autoplay.stop();
+});
+
+storySlider.addEventListener("mouseleave", function () {
+    swiperHistory.autoplay.start();
+});
+
+</script>
+<script>
+var heroSwiper = new Swiper(".main-hero", {
+    effect: "coverflow",
+
+    loop: true,
+    speed: 1200,
+
+    grabCursor: true,
+    centeredSlides: true,
+
+    slidesPerView: 1,
+
+    coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 180,
+        modifier: 1,
+        slideShadows: false
+    },
+
+    autoplay: {
+        delay: 4000,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: false
+    },
+
+    watchSlidesProgress: true,
+
+});
 </script>
 </body>
 </html>

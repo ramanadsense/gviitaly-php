@@ -28,18 +28,15 @@
       <div class="row gy-5 fade-wrapper justify-content-center">
          <div class="col-12">
 
-            <script src="https://www.juicer.io/embed/vinay-aggarwal-4a104b36/embed-code.js"
-               async defer></script>
-
-            <ul class="juicer-feed"
-               data-feed-id="vinay-aggarwal-4a104b36">
-            </ul>
+            <div class="sk-ww-linkedin-profile-post"
+                 data-embed-id="25693822">
+            </div>
 
          </div>
       </div>
    </div>
 </section>
-
+<script src="https://widgets.sociablekit.com/linkedin-profile-posts/widget.js" defer></script>
 
 
 <?php include('footer.php'); ?>

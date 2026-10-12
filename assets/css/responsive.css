@@ -1,50 +1,151 @@
+@media(min-width:1550px) {
+    .gvi-footer-right {
+        text-align: center;
+        position: relative;
+        padding-top: 0;
+        padding-left: 140px;
+    }
+}
+
+@media(min-width:1400px) {
+    .header .primary-header-inner .header-left-wrap {
+        display: flex;
+        align-items: center;
+        column-gap: 200px;
+    }
+    .hero-wrap-6 {
+    padding: 220px 0;
+    
+    }
+    .leadership-img img {
+    width: 100%;
+    height: 530px;
+    object-fit: cover;
+    border-radius: 15px;
+    }
+
+    /* TOP FULL-WIDTH PATTERN */
+    .gvi-footer-new::before {
+        content: "";
+        position: absolute;
+        top: -80px;
+        left: 0;
+        width: 100%;
+        height: 80px;
+        background: url("../img/pattern-4-main.png") top center / 100% auto no-repeat;
+        pointer-events: none;
+        z-index: 0;
+    }
+}
+
 @media(max-width:1200px) {
     .header .primary-header-inner .header-left-wrap {
         display: flex;
         align-items: center;
-        column-gap: 130px;
+        column-gap: 40px;
     }
 }
 
-@media(max-width:992px) {
-    .sidebar-icon {
+@media(max-width:1100px) {
+    .gvi-footer-new {
+        background-image: none;
+    }
+
+    .header .primary-header-inner .header-menu-wrap ul li a {
+        font-family: var(--tl-ff-heading);
+        color: var(--tl-color-common-black);
         display: block;
+        font-size: 16px;
+        padding: 36px 13px;
+    }
+
+    .product-header .book-btn-main {
+        position: absolute;
+        right: 40px;
+        bottom: -50px;
+        width: 150px;
+        height: 150px;
+        z-index: 10;
+    }
+
+    .product-header .brochure-book img {
+        display: block;
+        width: 180px;
+        height: 180px;
+        object-fit: contain;
+        background: transparent;
+        transition: transform .45s ease;
+    }
+}
+
+
+@media(max-width:992px) {
+
+    .product-header .book-btn-main {
+        position: absolute;
+        right: 40px;
+        bottom: -10px;
+        width: 150px;
+        height: 150px;
+        z-index: 10;
+    }
+
+    .product-header .brochure-book img {
+        display: block;
+        width: 180px;
+        height: 180px;
+        object-fit: contain;
+        background: transparent;
+        transition: transform .45s ease;
     }
 
 
-
+    .sidebar-icon {
+        display: block;
+    }
 
     .testimonial-section-2 .testi-item-2 p {
         font-size: 22px;
     }
 
-    .footer-bg-main {
+    /* .footer-bg-main {
         background-image: url(../img/pattern-4.png);
         height: 70px;
         width: 100%;
         background-size: contain;
-        /* background-repeat: no-repeat; */
-        background-color: #eeeeee;
+        background-color: #f6f6f6;
+    } */
+    .gvi-footer-new::before {
+        content: "";
+        position: absolute;
+        top: -80px;
+        left: 0;
+        width: 100%;
+        height: 80px;
+        background: url("../img/pattern-4-main.png") top center / 100% auto no-repeat;
+        pointer-events: none;
+        z-index: 0;
     }
 
     .gvi-bottom-logo {
-    position: relative;
-    padding-right: 14px;
-}
-.gvi-bottom-left {
-    display: flex;
-    align-items: center;
-    gap: 4px;
-}
+        position: relative;
+        padding-right: 14px;
+    }
+
+    .gvi-bottom-left {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+    }
 
 
-.gvi-bottom-wrap p {
-    margin: 0;
-    color: #fff;
-    font-size: 11px;
-    line-height: 20px;
-    text-align: left;
-}
+    .gvi-bottom-wrap p {
+        margin: 0;
+        color: #fff;
+        font-size: 11px;
+        line-height: 20px;
+        text-align: left;
+    }
 }
 
 @media (max-width: 992px) {
@@ -136,11 +237,34 @@
     }
 }
 
+@media(max-width:768px){
+        .product-header .book-btn-main {
+        position: absolute;
+        right: 20px;
+        bottom: -50px;
+        width: 150px;
+        height: 150px;
+        z-index: 10;
+    }
+}
+
 @media (max-width: 575.98px) {
     .brochure-row {
         flex-direction: column;
         gap: 15px;
         margin-bottom: 15px;
+    }
+
+    .gvi-footer-new::before {
+        content: "";
+        position: absolute;
+        top: -22px;
+        left: 0;
+        width: 100%;
+        height: 80px;
+        background: url(../img/pattern-4-main.png) top center / 100% auto no-repeat;
+        pointer-events: none;
+        z-index: 0;
     }
 
     .testi-carousel-5 .swiper-slide {
@@ -301,6 +425,29 @@
     .header .primary-header-inner .header-logo img {
         max-width: 100px;
     }
+
+    .experiences-img .content-img-2 .experiences-content {
+        position: absolute;
+        left: 35px;
+        bottom: 15px;
+        right: 60px;
+        z-index: 2;
+    }
+}
+
+@media(max-width:375px) {
+    .gvi-follow p {
+        margin: 0;
+        font-size: 12px;
+    }
+
+    .gvi-footer-btn {
+        gap: 8px;
+    }
+
+    .gvi-footer-right p {
+        line-height: normal;
+    }
 }
 
 @media(max-width:320px) {
@@ -310,5 +457,15 @@
 
     .section-heading .section-title.title-2 {
         font-size: 23px;
+    }
+}
+
+@media(min-width:1400px) {
+    .history-item .history-content .circle {
+        display: block;
+        height: 18px;
+        width: 18px;
+        border-radius: 50%;
+        margin: 25px 0 10px 0;
     }
 }

@@ -25,7 +25,9 @@
          <a href="#drawer-locks" class="category-nav-item">Drawer Locks</a>
          <a href="#kitchen-accessories" class="category-nav-item">Modular Kitchen Fittings</a>
          <a href="#wardrobe-accessories" class="category-nav-item">Modular Wardrobe Fittings</a>
-         <a href="#architectural-furniture" class="category-nav-item">Architectural Hardware</a>
+      </div>
+      <div class="category-nav-wrap mt-4">
+        <a href="#architectural-furniture" class="category-nav-item">Architectural Hardware</a>
          <a href="#aluminium-profiles" class="category-nav-item">Aluminium Profiles</a>
       </div>
 
