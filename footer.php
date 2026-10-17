@@ -194,6 +194,7 @@
    <span id="scroll-percentage-value"></span>
    <span class="scroll-percentage-icon"><i class="ph ph-arrow-up"></i></span>
 </div>
+<?php include('whatsapp-button.php'); ?>
 
 <script src="assets/js/vendor/jquary-3.7.1.min.js"></script>
 <script src="assets/js/vendor/bootstrap-bundle.js"></script>
